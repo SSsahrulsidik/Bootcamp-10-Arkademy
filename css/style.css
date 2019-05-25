@@ -1,0 +1,108 @@
+#logo {
+  width: 50px;
+  float: left;
+  padding: 12px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#div-1 {
+  background-color: white;
+  border-radius: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#div-2 {
+  background-color: white;
+  border-radius: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#arkademy-link {
+  cursor: pointer;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #FFF;
+  margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  background-color: #32CD32;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  display: inline-block;
+}
+
+nav {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  padding-left: 0px;
+  float: left;
+}
+
+nav ul a {
+  float: left;
+  padding: 15px;
+}
+
+nav ul a:hover {
+  background: #FFFFFF;
+  border-radius: 6px;
+  padding-right: 0px;
+}
+
+nav ul a:hover li {
+  color: #000;
+}
+
+nav ul li {
+  margin-right: 16px;
+  display: block;
+  color: #fff;
+}
+
+section {
+  background-image: url("../img/BG.jpg");
+  font-family: 'Quicksand', sans-serif;
+  border-color: #FFFFFF;
+  padding-top: 80px;
+  padding-right: 300px;
+  padding-bottom: 80px;
+  padding-left: 300px;
+  position: relative;
+}
+
+article {
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: white;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: White;
+}
+
+h3 {
+  text-align: center;
+  color: #000;
+}
+
+footer {
+  text-align: center;
+}
