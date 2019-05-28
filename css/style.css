@@ -1,68 +1,50 @@
-#logo {
-  width: 50px;
-  float: left;
-  padding: 12px;
-  border-radius: 50px;
-  cursor: pointer;
-}
+/* @font-face {
+  font-family: "Glegoo";
+  src: url(../fonts/Quicksand-Regular.ttf) format('truetype');
+} */
 
-#div-1 {
-  background-color: white;
-  border-radius: 6px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-#div-2 {
-  background-color: white;
-  border-radius: 6px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
-#arkademy-link {
-  cursor: pointer;
-  color: black;
+/* mengambil fonts dari file directory */
+@font-face {
+  font-family: "Quicksand";
+  src: url(../fonts/Quicksand-Regular.ttf) format('truetype');
 }
 
 a {
   text-decoration: none;
 }
 
+p {
+  color: white;
+}
+
 body {
   background-color: #FFF;
   margin: 0 auto;
   font-family: 'Quicksand', sans-serif;
+  
 }
 
 header {
-  background-color: #32CD32;
+  background-color: rgb(49, 102, 89);
   position: fixed;
   width: 100%;
   z-index: 10;
-  display: inline-block;
+  border-radius: 6px;
+  /* display: inline-block; */
 }
 
 nav {
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 15px;
-  padding-left: 0px;
   float: left;
 }
 
 nav ul a {
   float: left;
-  padding: 15px;
+  padding: 7px;
 }
 
 nav ul a:hover {
   background: #FFFFFF;
   border-radius: 6px;
-  padding-right: 0px;
 }
 
 nav ul a:hover li {
@@ -70,39 +52,178 @@ nav ul a:hover li {
 }
 
 nav ul li {
-  margin-right: 16px;
-  display: block;
+  /* margin right & left untuk jarak antar navigasi li */
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
   color: #fff;
 }
 
 section {
-  background-image: url("../img/BG.jpg");
+  /* background-image: url("../img/BG.jpg"); */
   font-family: 'Quicksand', sans-serif;
   border-color: #FFFFFF;
-  padding-top: 80px;
+  padding-top: 55px;
   padding-right: 300px;
-  padding-bottom: 80px;
+  /* padding-bottom: 60px; */
   padding-left: 300px;
   position: relative;
 }
 
-article {
-  border: 1px solid black;
-  border-radius: 6px;
-  background-color: white;
-  text-align: center;
-}
-
 h1 {
   text-align: center;
-  color: White;
+  color: black;
+  font-size: 40px;
 }
 
 h3 {
   text-align: center;
-  color: #000;
+  color: white;
 }
 
 footer {
   text-align: center;
+}
+
+#logo {
+  width: 50px;
+  float: left;
+  padding: 7px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* About Me Contact Me */
+#data-list {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
+  justify-content: center;
+}
+#div-1 {
+  background-color: white;
+  border-radius: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: rgb(19, 69, 92);
+  color: #FFFFFF;
+}
+#div-1:hover {
+  background-color: rgb(36, 107, 129);
+  cursor: pointer;
+}
+
+#div-2 {
+  background-color: white;
+  border-radius: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: rgb(19, 75, 100);
+  color: #FFFFFF;
+}
+#div-2:hover {
+  background-color: rgb(36, 107, 129);
+  cursor: pointer;
+}
+
+
+/* Jawaban Soal */
+#jawaban-soal {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  grid-gap: 20px;
+  
+  /* padding: 10px; */
+}
+.soal-1 {
+  color: #FFFFFF;
+  background-color: rgb(36, 128, 105);
+  border-radius: 6px;
+  text-align: left;
+  /* padding: 90px; */
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.soal-1:hover {
+  background-color: rgb(49, 102, 89);
+  cursor: pointer;
+}
+
+.soal-2 {
+  color: #FFFFFF;
+  background-color: rgb(36, 128, 105);
+  border-radius: 6px;
+  text-align: left;
+  /* padding: 90px; */
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.soal-2:hover {
+  background-color: rgb(49, 102, 89);
+  cursor: pointer;
+}
+
+.soal-3 {
+  color: #FFFFFF;
+  background-color: rgb(36, 128, 105);
+  border-radius: 6px;
+  text-align: left;
+  /* padding: 90px; */
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.soal-3:hover {
+  background-color: rgb(49, 102, 89);
+  cursor: pointer;
+}
+
+.soal-4 {
+  color: #FFFFFF;
+  background-color: rgb(36, 128, 105);
+  border-radius: 6px;
+  text-align: left;
+  /* padding: 90px; */
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.soal-4:hover {
+  background-color: rgb(49, 102, 89);
+  cursor: pointer;
+}
+
+.soal-5 {
+  color: #FFFFFF;
+  background-color: rgb(36, 128, 105);
+  border-radius: 6px;
+  text-align: left;
+  /* padding: 90px; */
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.soal-5:hover {
+  background-color: rgb(49, 102, 89);
+  cursor: pointer;
+}
+
+/* footer */
+#arkademy-link {
+  cursor: pointer;
+  color: black;
 }
